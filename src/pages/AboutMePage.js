@@ -1,7 +1,6 @@
 
 
 export default function AboutMePage() {
-  const Header = () => {
     return (
       <div className="flex flex-col w-full">
         <div className="grid h-20 card bg-base-300 rounded-box place-items-center">content</div> 
@@ -9,7 +8,6 @@ export default function AboutMePage() {
         <div className="grid h-20 card bg-base-300 rounded-box place-items-center">content</div>
       </div>
     );
-   }
  }
 
 
