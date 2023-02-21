@@ -17,7 +17,7 @@ export default function MainPage() {
     return (
       <>
         <h2 type="text" style={mainStyle} className="p-20">WELLCOME TO MY PORTFOLIO</h2> 
-        <button style={nextButtonStyle} className="p-20 ">START</button>
+        <Button variant="outlined" style={nextButtonStyle} className="p-20 ">START</Button>
       </>
     );
    }

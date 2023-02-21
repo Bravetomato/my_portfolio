@@ -34,3 +34,25 @@ html, body, #root {
   background-color: #FFE697;
 }
 
+.MainPage {
+  width: 100wh;
+  height: 90vh;
+  color: #fff;
+  background: linear-gradient(to right, #3d7eaa, #ffe47a);
+  background-size: 400% 400%;
+  animation: MainPage 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes MainPage {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
