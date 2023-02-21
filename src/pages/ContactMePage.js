@@ -1,13 +1,12 @@
 
 
 export default function ContactMePage() {
-  const Header = () => {
+ 
     return (
-      <Header>
-        <h2>This is Header</h2>
-      </Header>
+      <>
+        <h2>ContactMe Page</h2>
+      </>
     );
-   }
   }
 
 
