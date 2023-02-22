@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
+import styled, { keyframes } from "styled-components"
 
 export default function MainPage() {
   const mainStyle = {
