@@ -11,8 +11,8 @@ function App() {
   const location = useLocation();
 
   return (
-    <>      
-      <header className="opacity: 0">
+    <> 
+      <header className="Header">
         <NavLink to="/main" className="cursor-pointer pr-5">MAIN</NavLink>
         <NavLink to="/aboutme" className="cursor-pointer pr-5">ABOUT ME</NavLink>
         <NavLink to="/projects" className="cursor-pointer pr-5">PROJECTS</NavLink>

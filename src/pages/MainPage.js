@@ -4,13 +4,13 @@ import { Button } from "@mui/material";
 export default function MainPage() {
 
   const mainStyle = {
-    color: "#E26559",
+    color: "FCFFE6",
     fontSize: "61px",
     alignItems: "center",
     justifyContent: "center",
   }
   const nextButtonStyle = {
-    color: "#2B7799",
+    color: "#4B9C0",
     fontSize: "35px",
     position:"absolute",
   }
