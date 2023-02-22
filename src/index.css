@@ -34,9 +34,10 @@ html, body, #root {
   background-color: #FFE697;
 }
 
-/* .MainPage {
+/* MainPage backround- gradient */
+.MainPage {
   width: 100wh;
-  height: 90vh;
+  height: 100vh;
   color: #fff;
   background: linear-gradient(to right, #3d7eaa, #ffe47a);
   background-size: 400% 400%;
@@ -79,5 +80,5 @@ background-position: 100% 50%
 100% {
 background-position: 0% 50%
 }
-}  */
+} 
 
