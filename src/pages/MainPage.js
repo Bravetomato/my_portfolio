@@ -1,25 +1,24 @@
 import { Link } from "react-router-dom";
-import { Button } from "@mui/material";
 
 export default function MainPage() {
 
   const mainStyle = {
-    color: "FCFFE6",
+    color: "#FCFFE6",
     fontSize: "61px",
     alignItems: "center",
     justifyContent: "center",
   }
   const nextButtonStyle = {
-    color: "#4B9C0",
+    color: "#FCFFE6",
     fontSize: "35px",
-    position:"absolute",
+    flexdirection: "column",
   }
     return (
       <>
        <div className="MainPage">
         <h2 type="text" style={mainStyle} className="p-20">WELLCOME TO MY PORTFOLIO</h2> 
         <Link to="/aboutme">
-        <Button variant="text" style={nextButtonStyle} className="p-20">START</Button>
+        <button style={nextButtonStyle} className="flex flex-col p-20">START</button>
         </Link>
        </div>
       </>
