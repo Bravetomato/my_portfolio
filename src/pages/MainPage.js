@@ -19,7 +19,7 @@ export default function MainPage() {
        <div className="MainPage">
         <h2 type="text" style={mainStyle} className="p-20">WELLCOME TO MY PORTFOLIO</h2> 
         <Link to="/aboutme">
-        <Button variant="outlined" style={nextButtonStyle} className="p-20 ">START</Button>
+        <Button variant="text" style={nextButtonStyle} className="p-20">START</Button>
         </Link>
        </div>
       </>

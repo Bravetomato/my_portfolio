@@ -1,3 +1,4 @@
+import DarkMode from "./pages/DarkMode";
 
 
 export default function AboutMePage() {
