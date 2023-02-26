@@ -6,7 +6,7 @@ export default function AboutMePage() {
 
     return (
       <div className="textarea" style={{backgroundColor: "#84B9C0", margin: "30px"}}>
-        <h2 className="aboutMeTitle" style={{fontSize: "40px", color: "#E26559"}}>About Me</h2>
+        <h2 className="aboutMeTitle" style={{fontSize: "40px", color: "#FCFFE6"}}>About Me</h2>
         <article>
         안녕하세요. 이곳은 제가 어떤 사람인지 적어 놓는 공간입니다.
         <br />
