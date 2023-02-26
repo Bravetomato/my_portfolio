@@ -3,10 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Add ebfont */
+/* Add font Noto Sans KR Medium 500 */
 @font-face {
-  font-family: "GmarketSansMedium";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+  font-family: "font-family: 'Noto Sans KR', sans-serif;";
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap")
     format("woff");
   font-weight: normal;
   font-style: normal;
