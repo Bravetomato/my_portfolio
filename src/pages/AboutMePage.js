@@ -1,3 +1,4 @@
+import { Container } from "@mui/material";
 
 export default function AboutMePage() {
     const openNewPage = (url) => {
@@ -5,7 +6,8 @@ export default function AboutMePage() {
     };
 
     return (
-      <div className="textarea" style={{backgroundColor: "#84B9C0", margin: "30px"}}>
+      // <div className="textarea" style={{backgroundColor: "#84B9C0", margin: "30px"}}>
+      <Container maxWidth="md" style={{backgroundColor: "#84B9C0", marginTop: "30px"}}> 
         <h2 className="aboutMeTitle" style={{fontSize: "40px", color: "#FCFFE6"}}>About Me</h2>
         <article>
         안녕하세요. 이곳은 제가 어떤 사람인지 적어 놓는 공간입니다.
@@ -13,9 +15,15 @@ export default function AboutMePage() {
         현재까지 경력과 개발을 시작한 계기, 가치관, 저의 장점을 적고,
         <br />
         마지막에는 이력서 pdf를 연결하는 링크 버튼을 삽입할 계획입니다. 
+        <br />
+        안녕하세요. 이곳은 제가 어떤 사람인지 적어 놓는 공간입니다.현재까지 경력과 개발을 시작한 계기, 가치관, 저의 장점을 적고,마지막에는 이력서 pdf를 연결하는 링크 버튼을 삽입할 계획입니다. 
+        안녕하세요. 이곳은 제가 어떤 사람인지 적어 놓는 공간입니다.
+        현재까지 경력과 개발을 시작한 계기, 가치관, 저의 장점을 적고,
+        마지막에는 이력서 pdf를 연결하는 링크 버튼을 삽입할 계획입니다. 
         </article>
+        <br />
         <button onClick={() => openNewPage("")} style={{color:"#2B7799"}}>RESUME</button>
-      </div>
+      </Container> 
     );
  }
 

@@ -34,6 +34,15 @@ html, body, #root {
   background-color: #FCFFE6;
 }
 
+.topBarStyle {
+  background-color: hsla(0, 0%, 100%, 0);
+  transition: background-color .2s;
+}
+
+.topBarText {
+  color: #414848;
+}
+
 /* MainPage backround- gradient */
 .MainPage {
   width: 100wh;
