@@ -5,7 +5,7 @@
 
 /* Add font Noto Sans KR Medium 500 */
 @font-face {
-  font-family: "font-family: 'Noto Sans KR', sans-serif;";
+  font-family: "font-family: 'Noto Sans KR', sans-serif";
   src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap")
     format("woff");
   font-weight: normal;
@@ -18,8 +18,8 @@ html > body select,
 html > body textarea,
 html > body pre,
 html > body button {
-  font-family:"GmarketSansMedium";
-  color: #414848;
+  font-family:"'Noto Sans KR', sans-serif";
+  color: #195190;
   text-underline-position: under;
   line-height:1.3;
 }
@@ -31,7 +31,7 @@ html, body, #root {
 }
 
 #root {
-  background-color: #FCFFE6;
+  background-color: rgb(233, 236, 239);
 }
 
 .topBarStyle {
@@ -40,7 +40,7 @@ html, body, #root {
 }
 
 .topBarText {
-  color: #414848;
+  color: #195190;
 }
 
 /* MainPage backround- gradient */
