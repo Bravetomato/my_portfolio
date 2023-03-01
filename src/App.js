@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Routes, Route, Navigate, NavLink, useNavigate, useLocation } from "react-router-dom";
+import { Routes, Route, Navigate, NavLink, useLocation } from "react-router-dom";
 
+import Header from "./Header";
 import MainPage from "./pages/MainPage";
 import AboutMePage from "./pages/AboutMePage";
 import ProjectsPage from "./pages/ProjectsPage";
@@ -12,15 +13,7 @@ function App() {
 
   return (
     <> 
-      <nav className="navBar">
-       <div className="navBarContainer">
-        <NavLink to="/main" className="cursor-pointer pl-3 pr-5">MAIN</NavLink>
-        <NavLink to="/aboutme" className="cursor-pointer pr-5">ABOUT ME</NavLink>
-        <NavLink to="/projects" className="cursor-pointer pr-5">PROJECTS</NavLink>
-        <NavLink to="/skill" className="cursor-pointer pr-5">SKILL</NavLink>
-        <NavLink to="/contactme" className="cursor-pointer">CONTACT ME</NavLink>
-       </div>
-      </nav>
+      <Header />
       <Routes>
         <Route path="/main" element={<MainPage />} />
         <Route path="/aboutme" element={<AboutMePage />} />
