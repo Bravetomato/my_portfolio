@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Container } from "@mui/material";
+import "../style/MainPage.css";
 
 export default function MainPage() {
   const completeText ="안녕하세요. 꾸준하게 성장하는 프론트엔드 개발자 김보람입니다.";
@@ -19,27 +20,22 @@ export default function MainPage() {
     return() => clearInterval(interval)
   })
 
-  const mainStyle = {
+  const buttonStyle = {
     color: "#FCFFE6",
-    fontSize: "61px",
-    alignItems: "center",
-    justifyContent: "center",
-  }
-  const nextButtonStyle = {
-    color: "#FCFFE6",
-    fontSize: "35px",
+    size: "35px",
     marginTop: "80px",
+    alignItems: "center",
   }
 
     return (
       <>
-       <div className="MainPage">
+       <div className="mainPage">
         <Container className="text-center">
-        <h2 type="text" style={mainStyle} className="p-20">WELLCOME TO MY PORTFOLIO</h2> 
-        <h3>{text}</h3>
-        <Link to="/aboutme">
-        <button style={nextButtonStyle}>START</button>
-        </Link>
+         <h2 className="mainTitle">WELLCOME TO MY PORTFOLIO</h2> 
+         <h3>{text}</h3>
+         <Link to="/aboutme">
+          <button style={buttonStyle}>START</button>
+         </Link>
         </Container>
        </div>
       </>
