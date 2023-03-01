@@ -12,15 +12,15 @@ function App() {
 
   return (
     <> 
-      <topBar className="topBarStyle">
-       <div className="topBarText">
+      <nav className="navBar">
+       <div className="navBarContainer">
         <NavLink to="/main" className="cursor-pointer pl-3 pr-5">MAIN</NavLink>
         <NavLink to="/aboutme" className="cursor-pointer pr-5">ABOUT ME</NavLink>
         <NavLink to="/projects" className="cursor-pointer pr-5">PROJECTS</NavLink>
         <NavLink to="/skill" className="cursor-pointer pr-5">SKILL</NavLink>
         <NavLink to="/contactme" className="cursor-pointer">CONTACT ME</NavLink>
        </div>
-      </topBar>
+      </nav>
       <Routes>
         <Route path="/main" element={<MainPage />} />
         <Route path="/aboutme" element={<AboutMePage />} />
