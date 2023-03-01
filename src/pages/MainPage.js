@@ -12,6 +12,7 @@ export default function MainPage() {
   const nextButtonStyle = {
     color: "#FCFFE6",
     fontSize: "35px",
+    marginTop: "80px",
   }
 
  

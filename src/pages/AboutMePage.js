@@ -6,9 +6,8 @@ export default function AboutMePage() {
     };
 
     return (
-      // <div className="textarea" style={{backgroundColor: "#84B9C0", margin: "30px"}}>
-      <Container maxWidth="md" style={{backgroundColor: "#DCE2F0", marginTop: "30px"}}> 
-        <h2 className="text-center" style={{fontSize: "40px", color: "#195190"}}>About Me</h2>
+      <Container maxWidth="md" style={{backgroundColor: "#DCE2F0", marginTop: "80px"}}> 
+        <h2 className="text-center" style={{fontSize: "40px", color: "#195190", marginTop: "30px"}}>About Me</h2>
         <article style={{marginTop: "40px"}}>
         안녕하세요. 이곳은 제가 어떤 사람인지 적어 놓는 공간입니다.
         <br />
