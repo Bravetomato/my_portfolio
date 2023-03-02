@@ -1,13 +1,13 @@
-import React from "react";
+// import React from "react";
 
-export default function Slide({img}) {
-    const IMG = {
-        width: "100%",
-        height: "70vh",
-    }
+// export default function Slide({img}) {
+//     const IMG = {
+//         width: "30%",
+//         height: "70vh",
+//     }
 
-    return (
-     <IMG src={img} />
- );
-}
+//     return (
+//      <IMG src={img} alt =""/>
+//  );
+// }
     

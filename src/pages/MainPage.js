@@ -4,7 +4,7 @@ import { Container } from "@mui/material";
 import "../style/MainPage.css";
 
 export default function MainPage() {
-  const completeText ="안녕하세요. 꾸준하게 성장하는 프론트엔드 개발자 김보람입니다.";
+  const completeText ="안녕하세요. 안녕하세요. 안녕하세요. 안녕하세요. 안녕하세요.";
   const [text, setText] = useState('');
   const [count, setCount] = useState(0);
 

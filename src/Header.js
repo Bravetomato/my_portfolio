@@ -13,9 +13,6 @@ export default function Header() {
         <NavLink to="/projects">PROJECTS</NavLink>
         <NavLink to="/skill">SKILL</NavLink>
         <NavLink to="/contactme">CONTACT ME</NavLink>
-      <div className="manu_wrap bg-blue-500">
-        <span>abc</span>
-      </div>
     </div>
    </>
   );
