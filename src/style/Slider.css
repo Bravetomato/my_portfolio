@@ -1,0 +1,16 @@
+.container {
+  width: 60%;
+  overflow: hidden;
+}
+
+.sliderContainer {
+  width: 100%;
+  display: flex;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 0.5em 2em;
+  color: coral;
+  border-radius: 10px;
+}

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import img1 from "../img/Kakaobank.jpg";
 import img2 from "../img/Portfolio.jpg";
 import img3 from "../img/TodoList.jpg";
+import "../style/Slider.css";
 
 const Total_Slides = 2;
 
@@ -29,21 +30,19 @@ export default function Slider() {
         slideRef.current.style.transform = `translateX(-${currentSlide}00%)`;
     }, [currentSlide]);
 
-    const imgStyle = {
-        display: "inlineBlock",
-    }
+
 
     return (
-     <container className="width-60%">
+    <container>
         {currentSlide}
         <sliderContainer ref={slideRef} >
-        <img className="imgStyle" src={img1} />
-        <img className="imgStyle" src={img2} />
-        <img className="imgStyle" src={img3} />
+        <img src={img1} />
+        <img src={img2} />
+        <img src={img3} />
         </sliderContainer>
         <button onClick={prevSlide}> Previous </button>
         <button onClick={nextSlide}> Next </button>
-     </container>
+    </container>
  );
 }
     
