@@ -5,7 +5,7 @@ import logo from "./img/favicon.png";
 export default function Header() {
   return(
    <>
-    <div className="header_wrap">
+    <div className="header_wrap text-white">
       <div className="logo_wrap">
         <NavLink to="/main"><img src={logo} alt=""/></NavLink>
       </div>

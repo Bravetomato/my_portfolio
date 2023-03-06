@@ -1,3 +1,5 @@
+import img1 from "../img/development.png";
+
 export default function AboutMePage() {
     const openNewPage = (url) => {
       window.open(url, "_blank", "noopener, noreferrer");
@@ -12,15 +14,28 @@ export default function AboutMePage() {
             About Me
             <br className="hidden lg:inline-block" />
           </h1>
+          <i className="fa-solid fa-magnifying-glass"></i>
           <span className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
+            Lorem ipsum dolor sit amet, consectetur 
+            adipisicing elit. Quilaborum quasi, 
+            incidunt dolore iste n
+            ostrum cupiditate voluptas?
+            Laborum, voluptas natus
+            Lorem ipsum dolor sit amet, consectetur 
+            adipisicing elit. Quilaborum quasi, 
+            incidunt dolore iste n
+            ostrum cupiditate voluptas?
             Laborum, voluptas natus
           </span>
          <br />
-         <button onClick={() => openNewPage("")} style={{color:"#195190"}} className="ml-4 py-2 px-6 bg-gray-300 border-0 hover:bg-white hover:text-white rounded text-lg">
-          RESUME</button>
+          <div className="flex justify-center">
+           <button onClick={() => openNewPage("")} style={{color:"#195190"}} className="ml-4 py-2 px-6 bg-gray-300 border-0 hover:bg-white rounded text-lg">
+            RESUME</button>
+          </div> 
          </div>
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img src={img1} className="object-cover object-center rounded" />
+          </div>
         </div> 
       </section> 
     );
