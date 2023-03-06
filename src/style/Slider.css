@@ -8,6 +8,11 @@
   display: flex;
 }
 
+.img {
+  width: 30%;
+  height: 7vh;
+}
+
 .button {
   border: 1px solid black;
   padding: 0.5em 2em;
