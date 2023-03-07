@@ -9,19 +9,16 @@ import SkillPage from "./pages/SkillPage";
 import ContactMePage from "./pages/ContactMePage";
 
 function App() {
-  const location = useLocation();
+ 
 
   return (
     <> 
+      <MainPage />
       <Header />
-      <Routes>
-        <Route path="/main" element={<MainPage />} />
-        <Route path="/aboutme" element={<AboutMePage />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/skill" element={<SkillPage />} />
-        <Route path="/contactme" element={<ContactMePage />} />
-        <Route path="*" element={<MainPage />} />
-      </Routes>
+      <AboutMePage />
+      <ProjectsPage />
+      <SkillPage />
+      <ContactMePage />
     </>
   );
 }
