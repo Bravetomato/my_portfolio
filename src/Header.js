@@ -1,4 +1,4 @@
-import { Routes, Route, NavLink, useLocation } from "react-router-dom";
+import { Routes, Route, NavLink, useLocation, useNavigate } from "react-router-dom";
 import MainPage from "./pages/MainPage";
 import AboutMePage from "./pages/AboutMePage";
 import ProjectsPage from "./pages/ProjectsPage";
@@ -8,6 +8,7 @@ import "./style/Header.css";
 import logo from "./img/favicon.png";
 
 export default function Header() {
+  const navigate = useNavigate();
 
   return(
    <>

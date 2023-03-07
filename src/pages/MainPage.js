@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../style/MainPage.css";
 
 export default function MainPage() {
@@ -25,6 +25,8 @@ export default function MainPage() {
     marginTop: "80px",
     alignItems: "center",
   }
+
+  const navigate = useNavigate();
 
     return (
       <>
