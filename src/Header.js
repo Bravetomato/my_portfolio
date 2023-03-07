@@ -14,13 +14,17 @@ export default function Header() {
    <>
     <div className="header_wrap text-gray-400">
       <div className="logo_wrap">
-        <a href="main"><img src={logo} alt=""/></a>
-{/*     <NavLink to="/main"><img src={logo} alt=""/></NavLink> */}
+        <a href="/main"><img src={logo} alt=""/></a>
+        {/* <NavLink to="/main"><img src={logo} alt=""/></NavLink> */}
       </div>
-        <NavLink to="/aboutme">ABOUT ME</NavLink>
+        <a href="#/aboutme">ABOUT ME</a>
+        <a href="#/projects">PROJECTS</a>
+        <a href="#/skills">SKILLS</a>
+        <a href="#/contactme">CONTACT ME</a>
+        {/* <NavLink to="/aboutme">ABOUTME</NavLink>
         <NavLink to="/projects">PROJECTS</NavLink>
         <NavLink to="/skills">SKILLS</NavLink>
-        <NavLink to="/contactme">CONTACT ME</NavLink>
+        <NavLink to="/contactme">CONTACT ME</NavLink> */}
     </div>
     <Routes>
         <Route path="/main" element={<MainPage />} />

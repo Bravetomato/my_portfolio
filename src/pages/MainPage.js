@@ -34,7 +34,7 @@ export default function MainPage() {
         <div className="text-center">
          <h2 className="mainTitle">WELLCOME TO MY PORTFOLIO</h2> 
          <h3>{text}</h3>
-         <a href="#aboutme">
+         <a href="#/aboutme">
           <button style={buttonStyle} className="ml-4 py-2 px-6 border-2 hover:border-gray-300 rounded text-lg">START</button>
          </a>
         </div>
