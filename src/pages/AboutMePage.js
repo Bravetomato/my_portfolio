@@ -6,7 +6,7 @@ export default function AboutMePage() {
     };
 
     return (
-      <section id="about">
+      <section id="aboutme">
         <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
          <div className="lg:flex-glow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start 
          md:text-left mb-16 md:mb-0 items-center text-center">

@@ -13,12 +13,7 @@ function App() {
 
   return (
     <> 
-      <MainPage />
       <Header />
-      <AboutMePage />
-      <ProjectsPage />
-      <SkillPage />
-      <ContactMePage />
     </>
   );
 }
