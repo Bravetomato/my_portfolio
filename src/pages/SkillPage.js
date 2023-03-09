@@ -7,7 +7,8 @@ export default function SkillPage() {
          <div className="flex flex-col w-full mb-20"> 
           <h1 className="sm:text-4xl text3xl font-medium title-font mb-4 text-white">
           Skills
-          </h1><i className="fa-solid fa-gear"></i>
+          </h1>
+          <i className="fa-solid fa-gears"></i>
           <span className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam

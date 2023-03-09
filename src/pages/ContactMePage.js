@@ -8,16 +8,19 @@ export default function ContactMePage() {
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
          <div className="flex flex-col w-full mb-20"> 
           <h1 className="sm:text-4xl text3xl font-medium title-font mb-4 text-white">
-          Skills
+          Contact Me
           </h1>
+          <i className="fa-solid fa-user"></i>
           <span className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.
           </span>
          </div>
-        <i className="fab fa-github fa-3x socialicons"></i>
-        <i className="fab fa-linkedin fa-3x socialicons"></i>
+         <a href="https://github.com/Bravetomato">
+          <i className="fa-brands fa-github fa-2x"></i></a>
+         <a href="https://blog.naver.com/princeps1c">
+          <i className="fa-solid fa-blog fa-2x"></i></a> 
         </div>
       </section>
       </>
