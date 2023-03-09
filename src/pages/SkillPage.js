@@ -5,7 +5,7 @@ export default function SkillPage() {
       <section id="skills">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
          <div className="flex flex-col w-full mb-20"> 
-          <h1 className="sm:text-4xl text3xl font-medium title-font mb-4 text-white">
+          <h1 className="sm:text-4xl text3xl font-medium title-font mb-4 text-slate-400">
           Skills
           </h1>
           <i className="fa-solid fa-gears"></i>

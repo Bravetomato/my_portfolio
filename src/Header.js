@@ -5,22 +5,21 @@ import ProjectsPage from "./pages/ProjectsPage";
 import SkillPage from "./pages/SkillPage";
 import ContactMePage from "./pages/ContactMePage";
 import "./style/Header.css";
-import logo from "./img/favicon.png";
 
 export default function Header() {
   const navigate = useNavigate();
 
   return(
    <>
-    <div className="header_wrap text-gray-400">
+    <div className="header_wrap text-slate-400">
       <div className="logo_wrap">
-        <a href="/main"><img src={logo} alt=""/></a>
-        {/* <NavLink to="/main"><img src={logo} alt=""/></NavLink> */}
+        <a href="/main" className="text-5xl font-bold text-black hover:text-sky-200">R</a>
+        {/* <NavLink to="/main">R</NavLink> */}
       </div>
-        <a href="#/aboutme">ABOUT ME</a>
-        <a href="#/projects">PROJECTS</a>
-        <a href="#/skills">SKILLS</a>
-        <a href="#/contactme">CONTACT ME</a>
+        <a href="#/aboutme" className=" hover:text-sky-200">ABOUT ME</a>
+        <a href="#/projects" className=" hover:text-sky-200">PROJECTS</a>
+        <a href="#/skills" className=" hover:text-sky-200">SKILLS</a>
+        <a href="#/contactme" className=" hover:text-sky-200">CONTACT ME</a>
         {/* <NavLink to="/aboutme">ABOUTME</NavLink>
         <NavLink to="/projects">PROJECTS</NavLink>
         <NavLink to="/skills">SKILLS</NavLink>

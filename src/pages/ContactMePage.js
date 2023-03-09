@@ -7,7 +7,7 @@ export default function ContactMePage() {
       <section id="contact">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
          <div className="flex flex-col w-full mb-20"> 
-          <h1 className="sm:text-4xl text3xl font-medium title-font mb-4 text-white">
+          <h1 className="sm:text-4xl text3xl font-medium title-font mb-4 text-slate-400">
           Contact Me
           </h1>
           <i className="fa-solid fa-user"></i>
@@ -18,9 +18,9 @@ export default function ContactMePage() {
           </span>
          </div>
          <a href="https://github.com/Bravetomato">
-          <i className="fa-brands fa-github fa-2x"></i></a>
+          <i className="fa-brands fa-github fa-2x px-4"></i></a>
          <a href="https://blog.naver.com/princeps1c">
-          <i className="fa-solid fa-blog fa-2x"></i></a> 
+          <i className="fa-solid fa-blog fa-2x pr-4"></i></a> 
         </div>
       </section>
       </>

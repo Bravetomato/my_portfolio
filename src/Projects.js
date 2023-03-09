@@ -8,7 +8,7 @@ export const Projects = [
     title: "카카오뱅크 모작",
     skills: "HTML, CSS, JAVA SCRIPT",
     description: "카카오뱅크 웹페이지 모작. HTML, CSS, JAVA SCRIPT, JQuery 사용.",
-    image: <img className="wd-380" src={img2} alt ="" />,
+    image: <img className="project1" src={img2} alt ="" />,
     link: "https://codepen.io/bravetomato-the-looper/pen/jOpbLaZ?editors=1010",
   },
   {
