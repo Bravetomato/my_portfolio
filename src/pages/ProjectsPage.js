@@ -29,11 +29,11 @@ export default function ProjectsPage() {
             </div>
           </div>
          </a>  
-        ))};
+        ))}
         </div>         
       </div>
     </section> 
     );
-   };
+   }
 
 

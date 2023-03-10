@@ -32,4 +32,4 @@ export const Projects = [
     image: "./img/Portfolio.jpg",
     link: "",
   },
-];
+]
