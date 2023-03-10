@@ -35,6 +35,6 @@ export default function ProjectsPage() {
       </div>
     </section> 
     );
-   };
+   }
 
 
