@@ -1,7 +1,22 @@
 import img5 from "../img/contactme.jpg";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+// emailjs
 
 export default function ContactMePage() {
- 
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_coerutr', 'template_qrouigp', form.current, 'PiIaBL-OiLfDgQxug')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
     return (
       <>
       <section id="contactme">
@@ -14,7 +29,7 @@ export default function ContactMePage() {
           </h1>
           <i className="fa-solid fa-user"></i>
           <span className="mb-8 leading-relaxed">
-          </span>/
+          </span>
          <br />
           <div className="flex justify-center">
            <a href="mailto:princeps2nd@gmail.com"><i className="fa-solid fa-envelope fa-2x px-4"></i></a>
@@ -29,8 +44,19 @@ export default function ContactMePage() {
           </div>
         </div> 
       </section> 
+      <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="name" />
+      <label>Email</label>
+      <input type="email" name="email" />
+      <label>Phone</label>
+      <input type="text" name="phone" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
       </>
     );
   }
 
-
+ 

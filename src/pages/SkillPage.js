@@ -13,15 +13,15 @@ export default function SkillPage() {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.
-          </span>
-          <div className="flex justify-center">
-            <i className="fa-brands fa-html5 fa-5x"></i>
-            <i class="fa-brands fa-css3-alt fa-5x"></i>
-            <i className="fa-brands fa-square-js fa-5x"></i>
+          <div className="flex justify-center mt-10">
+            <i className="fa-brands fa-html5 fa-5x pr-10"></i>
+            <i class="fa-brands fa-css3-alt fa-5x pr-10"></i>
+            <i className="fa-brands fa-square-js fa-5x pr-10"></i>
             <i className="fa-brands fa-react fa-5x"></i>
-            <i className="fa-brands fa-npm fa-3x"></i>
-            <i className="fa-brands fa-github fa-3x"></i>
+            {/* <i className="fa-brands fa-npm fa-3x"></i>
+            <i className="fa-brands fa-github fa-3x"></i> */}
             </div>
+          </span>
          </div>
         </div>
       </section>
