@@ -21,7 +21,7 @@ export default function Header() {
         <a href="#/projects" className="mr-5 hover:text-sky-200">PROJECTS</a>
         <a href="#/skills" className="mr-5 hover:text-sky-200">SKILLS</a>
         <a href="#/contactme" className="mr-5 hover:text-sky-200">CONTACT ME</a> */}
-        <NavLink to="/aboutme" className="mr-5 hover:text-sky-200">ABOUTME</NavLink>
+        <NavLink to="/aboutme" className="mr-5 hover:text-sky-200">ABOUT ME</NavLink>
         <NavLink to="/projects" className="mr-5 hover:text-sky-200">PROJECTS</NavLink>
         <NavLink to="/skills" className="mr-5 hover:text-sky-200">SKILLS</NavLink>
         <NavLink to="/contactme" className="mr-5 hover:text-sky-200">CONTACT ME</NavLink>

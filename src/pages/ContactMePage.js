@@ -14,7 +14,7 @@ export default function ContactMePage() {
           </h1>
           <i className="fa-solid fa-user"></i>
           <span className="mb-8 leading-relaxed">
-           <i className="fa-solid fa-envelope"></i> : princeps2nd@gmail.com
+           <a href="mailto:princeps2nd@gmail.com"><i className="fa-solid fa-envelope"></i></a> : princeps2nd@gmail.com
           </span>
          <br />
           <div className="flex justify-center">
