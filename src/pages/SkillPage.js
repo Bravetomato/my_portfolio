@@ -14,6 +14,14 @@ export default function SkillPage() {
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.
           </span>
+          <div className="flex justify-center">
+            <i className="fa-brands fa-html5 fa-5x"></i>
+            <i class="fa-brands fa-css3-alt fa-5x"></i>
+            <i className="fa-brands fa-square-js fa-5x"></i>
+            <i className="fa-brands fa-react fa-5x"></i>
+            <i className="fa-brands fa-npm fa-3x"></i>
+            <i className="fa-brands fa-github fa-3x"></i>
+            </div>
          </div>
         </div>
       </section>

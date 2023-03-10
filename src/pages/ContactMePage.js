@@ -14,12 +14,12 @@ export default function ContactMePage() {
           </h1>
           <i className="fa-solid fa-user"></i>
           <span className="mb-8 leading-relaxed">
-           <a href="mailto:princeps2nd@gmail.com"><i className="fa-solid fa-envelope"></i></a> : princeps2nd@gmail.com
-          </span>
+          </span>/
          <br />
           <div className="flex justify-center">
+           <a href="mailto:princeps2nd@gmail.com"><i className="fa-solid fa-envelope fa-2x px-4"></i></a>
            <a href="https://github.com/Bravetomato">
-           <i className="fa-brands fa-github fa-2x px-4"></i></a>
+           <i className="fa-brands fa-github fa-2x pr-4"></i></a>
            <a href="https://blog.naver.com/princeps1c">
            <i className="fa-solid fa-blog fa-2x pr-4"></i></a> 
           </div> 

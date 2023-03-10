@@ -12,7 +12,21 @@ function App() {
  
   return (
     <> 
-    <Header />
+    <Header/>
+    <MainPage/>
+    <AboutMePage/>
+    <ProjectsPage/>
+    <SkillPage/>
+    <ContactMePage/>
+
+    <Routes>
+        <Route path="/main" element={<MainPage />} />
+        <Route path="/aboutme" element={<AboutMePage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/skills" element={<SkillPage />} />
+        <Route path="/contactme" element={<ContactMePage />} />
+        <Route path="*" element={<MainPage />} />
+      </Routes> 
     </>
   );
 }
