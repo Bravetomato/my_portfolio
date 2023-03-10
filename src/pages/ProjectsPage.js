@@ -21,17 +21,16 @@ export default function ProjectsPage() {
           key={project.image}
           className="sm:w-1/2 w-100 p-4">
            <div className="flex relative">
-            <img className="absolute inset-0 w-full h-full object-cover object-center" src={project.image}/> 
+            <img className="absolute inset-0 w-full h-full object-cover object-center" src={project.image}/>
             <div className="px-8 py-10 relative z-10 w-full bg-gray-300 opacity-0 hover:opacity-100">
-              <h2 className="tracking-widest text-m titlefont font-medium text-purple-400 mb-1">{project.skills}</h2>
               <h1 className="title-font text-lg font-medium text-white mb-3">{project.title}</h1>
+              <h2 className="tracking-widest text-m titlefont font-medium text-purple-400 mb-1">{project.skills}</h2>
               <span className="leading-relaxed">{project.description}</span>
             </div>
           </div>
          </a>  
         ))}
-        </div>         
-        
+        </div>               
       </div>
     </section> 
     );
