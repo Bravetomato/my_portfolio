@@ -10,10 +10,9 @@ import ContactMePage from "./pages/ContactMePage";
 
 function App() {
  
-
   return (
     <> 
-      <Header />
+    <Header />
     </>
   );
 }

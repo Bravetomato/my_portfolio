@@ -17,10 +17,9 @@ export default function AboutMePage() {
           <i className="fa-solid fa-magnifying-glass"></i>
           <span className="mb-8 leading-relaxed">
             "Slow but, Steady"
-             토끼와 거북이 이야기에서 달리기 경주의 승자는 거북이였습니다. 
-             거북이는 느리지만 꾸준하게 자신의 길을 걸어갔기 때문에 승리할 수 있었습니다. 
-             저는 비록 토끼처럼 빠르지 않지만, 멈추지 않고 자신의 페이스를 유지하는 
-             거북이 같은 개발자가 되고 싶습니다. 
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
+            fuga dolore. 
           </span>
          <br />
           <div className="flex justify-center">

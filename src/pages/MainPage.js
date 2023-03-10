@@ -30,7 +30,7 @@ export default function MainPage() {
 
     return (
       <>
-       <div id="main" className="mainPage">
+       <div id="main" className="mainpage">
         <div className="text-center">
          <h2 className="mainTitle">WELLCOME TO MY PORTFOLIO</h2> 
          <h3>{text}</h3>
