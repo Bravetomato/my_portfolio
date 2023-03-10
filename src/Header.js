@@ -11,7 +11,7 @@ export default function Header() {
 
   return(
    <>
-    <div className="header_wrap text-black">
+    <div className="header_wrap text-black" style={{ fontFamily: "Marcellus"}}>
       <div className="logo_wrap flex flex-wrap">
         {/* <a href="/main" className="text-4xl font-bold pr-20 mb-4 md:mb-0 text-black hover:text-sky-200">R</a> */}
         <NavLink to="/main" className="text-4xl font-bold pr-20 mb-4 md:mb-0 text-black hover:text-sky-200">R</NavLink>
