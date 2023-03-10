@@ -11,19 +11,21 @@ export default function Header() {
 
   return(
    <>
-    <div className="header_wrap text-slate-400">
-      <div className="logo_wrap">
-        <a href="/main" className="text-5xl font-bold text-black hover:text-sky-200">R</a>
+    <div className="header_wrap text-black">
+      <div className="logo_wrap flex flex-wrap">
+        <a href="/main" className="text-4xl font-bold pr-20 mb-4 md:mb-0 text-black hover:text-sky-200">R</a>
         {/* <NavLink to="/main">R</NavLink> */}
       </div>
-        <a href="#/aboutme" className=" hover:text-sky-200">ABOUT ME</a>
-        <a href="#/projects" className=" hover:text-sky-200">PROJECTS</a>
-        <a href="#/skills" className=" hover:text-sky-200">SKILLS</a>
-        <a href="#/contactme" className=" hover:text-sky-200">CONTACT ME</a>
+      <nav className="flex flex-wrap items-center justify-center">
+        <a href="#/aboutme" className="mr-5 hover:text-sky-200">ABOUT ME</a>
+        <a href="#/projects" className="mr-5 hover:text-sky-200">PROJECTS</a>
+        <a href="#/skills" className="mr-5 hover:text-sky-200">SKILLS</a>
+        <a href="#/contactme" className="mr-5 hover:text-sky-200">CONTACT ME</a>
         {/* <NavLink to="/aboutme">ABOUTME</NavLink>
         <NavLink to="/projects">PROJECTS</NavLink>
         <NavLink to="/skills">SKILLS</NavLink>
         <NavLink to="/contactme">CONTACT ME</NavLink> */}
+      </nav>    
     </div>
     <Routes>
         <Route path="/main" element={<MainPage />} />
