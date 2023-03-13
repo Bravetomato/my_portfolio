@@ -34,7 +34,6 @@ export default function ContactMePage() {
             <br />
             언제든 편하게 연락주세요.
           </span>
-         <br />
           <div className="flex justify-center">
            <a href="https://github.com/Bravetomato">
            <i className="fa-brands fa-github fa-2x pr-4"></i></a>
