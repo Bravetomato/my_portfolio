@@ -35,3 +35,8 @@ html, body, #root {
 #root {
   background-color: rgb(233, 236, 239);
 }
+
+.icon:hover {
+  color: rgb(186, 230, 253);
+}
+

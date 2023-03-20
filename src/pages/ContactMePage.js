@@ -28,7 +28,7 @@ export default function ContactMePage() {
           <span className="mb-8 leading-relaxed">
             좋은 곳에서 일할 기회를 기다리고 있습니다. 
             <br />
-            저의 포트폴리오를 보고 궁금한 사항이나, 
+            포트폴리오를 보고 저에 관한 궁금한 사항이나, 
             <br />
             멋진 제안이 있으시다면
             <br />
@@ -36,9 +36,9 @@ export default function ContactMePage() {
           </span>
           <div className="flex justify-center">
            <a href="https://github.com/Bravetomato">
-           <i className="fa-brands fa-github fa-2x pr-4"></i></a>
+           <i className="icon fa-brands fa-github fa-2x pl-5 pr-4"></i></a>
            <a href="https://blog.naver.com/princeps1c">
-           <i className="fa-solid fa-blog fa-2x pr-4"></i></a> 
+           <i className="icon fa-solid fa-blog fa-2x pl-3 pr-4"></i></a> 
           </div> 
           <div className="flex justify-center">
           <form ref={form} onSubmit={sendEmail} className="inline-flex flex-col border-slate-400 border-2 rounded p-3 mt-5">

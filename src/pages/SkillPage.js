@@ -10,9 +10,13 @@ export default function SkillPage() {
           </h1>
           <i className="fa-solid fa-gears"></i>
           <span className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            HTML, CSS를 사용해 원하는 사이트의 틀을 구현할 수 있으며, 
+            <br/>
+            JAVA SCRIPT를 통해 사이트의 동적 움직임을 만들 수 있습니다. 
+            <br />
+            또한 REACT의 State 기능을 이해하고 있으며, 반응형 웹을 제작하는 것이 가능합니다.
+            <br />
+            이외에도 MUI, Tailwind를 다룰 수 있습니다. 
           <div className="flex justify-center mt-10">
             <i className="fa-brands fa-html5 fa-5x pr-10"></i>
             <i class="fa-brands fa-css3-alt fa-5x pr-10"></i>
