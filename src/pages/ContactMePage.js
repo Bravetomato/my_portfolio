@@ -43,14 +43,22 @@ export default function ContactMePage() {
           <div className="flex justify-center">
           <form ref={form} onSubmit={sendEmail} className="inline-flex flex-col border-slate-400 border-2 rounded p-3 mt-5">
            <i className="fa-solid fa-envelope fa-1x px-4"></i><span className="mt-2 mb-4">princeps2nd@gmail.com</span>
-            <label>NAME</label>
-            <input type="text" name="name" placeholder="성함" className="mb-3"/>
-            <label>E-MAIL</label>
-            <input type="email" name="email" placeholder="메일주소" className="mb-3"/>
-            <label>PHONE</label>
-            <input type="text" name="phone" placeholder="연락처" className="mb-3"/>
-            <label>TEXT</label>
-            <textarea name="message" placeholder="내용" className="mb-3"/>
+            <label className="input-group input-group-vertical">
+              <span>NAME</span>
+            <input type="text" name="name" placeholder="성함" className="input input-bordered input-md mb-3"/>
+            </label>
+            <label className="input-group input-group-vertical">
+              <span>E-MAIL</span>
+            <input type="email" name="email" placeholder="메일주소" className="input input-bordered mb-3"/>
+            </label>
+            <label className="input-group input-group-vertical">
+              <span>PHONE</span>
+            <input type="text" name="phone" placeholder="연락처" className="input input-bordered mb-3"/>
+            </label>
+            <label className="input-group input-group-vertical">
+              <span>TEXT</span>
+            <textarea name="message" placeholder="내용" className="input input-bordered mb-3"/>
+            </label>
             <input type="submit" value="SEND" className="flex justify-center ml-2 mt-2 py-1 px-3 bg-slate-400 border-0 hover:bg-sky-200 rounded cursor-pointer"/>
           </form>
           </div>
