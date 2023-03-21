@@ -49,15 +49,15 @@ export default function ContactMePage() {
             </label>
             <label className="input-group input-group-vertical">
               <span>E-MAIL</span>
-            <input type="email" name="email" placeholder="메일주소" className="input input-bordered mb-3"/>
+            <input type="email" name="email" placeholder="메일주소" className="input input-bordered input-md mb-3"/>
             </label>
             <label className="input-group input-group-vertical">
               <span>PHONE</span>
-            <input type="text" name="phone" placeholder="연락처" className="input input-bordered mb-3"/>
+            <input type="text" name="phone" placeholder="연락처" className="input input-bordered input-md mb-3"/>
             </label>
             <label className="input-group input-group-vertical">
               <span>TEXT</span>
-            <textarea name="message" placeholder="내용" className="input input-bordered mb-3"/>
+            <textarea name="message" placeholder="내용" className="input input-bordered input-md mb-3"/>
             </label>
             <input type="submit" value="SEND" className="flex justify-center ml-2 mt-2 py-1 px-3 bg-slate-400 border-0 hover:bg-sky-200 rounded cursor-pointer"/>
           </form>

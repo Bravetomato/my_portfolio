@@ -17,13 +17,11 @@ export default function SkillPage() {
             또한 REACT의 State 기능을 이해하고 있으며, 반응형 웹을 제작하는 것이 가능합니다.
             <br />
             이외에도 MUI, Tailwind를 다룰 수 있습니다. 
-          <div className="flex justify-center mt-10">
-            <i className="fa-brands fa-html5 fa-5x pr-10"></i>
-            <i class="fa-brands fa-css3-alt fa-5x pr-10"></i>
-            <i className="fa-brands fa-square-js fa-5x pr-10"></i>
+          <div className="grid grid-cols-2 gap-2 mt-10 p-10">
+            <i className="fa-brands fa-html5 fa-5x"></i>
+            <i className="fa-brands fa-css3-alt fa-5x"></i>
+            <i className="fa-brands fa-square-js fa-5x"></i>
             <i className="fa-brands fa-react fa-5x"></i>
-            {/* <i className="fa-brands fa-npm fa-3x"></i>
-            <i className="fa-brands fa-github fa-3x"></i> */}
             </div>
           </span>
          </div>

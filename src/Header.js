@@ -13,7 +13,7 @@ export default function Header() {
    <>
     <div className="header_wrap text-black" style={{ fontFamily: "Marcellus"}}>
       <div className="logo_wrap flex flex-wrap">
-        <a href="#main" className="text-4xl font-bold pr-20 mb-4 md:mb-0 text-black hover:text-sky-200">R</a>
+        <a href="#main" className="text-3xl font-bold pr-20 mb-4 md:mb-0 text-black hover:text-sky-200">R</a>
       </div>
       <nav className="flex flex-wrap items-center justify-center">
         <a href="#aboutme" className="mr-5 hover:text-sky-200">ABOUT ME</a>
