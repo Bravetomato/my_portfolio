@@ -11,20 +11,15 @@ export default function Header() {
 
   return(
    <>
-    <div className="header_wrap text-black" style={{ fontFamily: "Marcellus"}}>
+    <div className="header_wrap text-black">
       <div className="logo_wrap flex flex-wrap">
-        <a href="#main" className="text-3xl font-bold pr-20 mb-4 md:mb-0 text-black hover:text-sky-200">R</a>
+        <a href="#main" className="text-3xl font-bold pr-20 mb-4 md:mb-0 text-black hover:text-sky-200" style={{ fontFamily: "Marcellus"}}>R</a>
       </div>
       <nav className="flex flex-wrap items-center justify-center">
         <a href="#aboutme" className="mr-5 hover:text-sky-200">ABOUT ME</a>
         <a href="#projects" className="mr-5 hover:text-sky-200">PROJECTS</a>
         <a href="#skills" className="mr-5 hover:text-sky-200">SKILLS</a>
         <a href="#contactme" className="mr-5 hover:text-sky-200">CONTACT ME</a>
-        {/*<NavLink to="/main" className="text-4xl font-bold pr-20 mb-4 md:mb-0 text-black hover:text-sky-200">R</NavLink>*/}
-        {/* <NavLink to="/aboutme" className="mr-5 hover:text-sky-200">ABOUT ME</NavLink>
-        <NavLink to="/projects" className="mr-5 hover:text-sky-200">PROJECTS</NavLink>
-        <NavLink to="/skills" className="mr-5 hover:text-sky-200">SKILLS</NavLink>
-        <NavLink to="/contactme" className="mr-5 hover:text-sky-200">CONTACT ME</NavLink> */}
       </nav>   
     </div>
    </>
