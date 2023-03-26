@@ -15,15 +15,14 @@ export default function ContactMePage() {
           console.log(error.text);
       });
   };
-
     return (
       <>
       <section id="contactme">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-         <div className="flex flex-col w-full mb-20"> 
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mt-4 mb-4 text-slate-400">
+       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+        <div className="flex flex-col w-full mb-20"> 
+         <h1 className="sm:text-4xl text-3xl font-medium title-font mt-4 mb-4 text-slate-400">
           CONTACT ME
-          </h1>
+        </h1>
           <i className="fa-solid fa-user"></i>
           <span className="mb-8 leading-relaxed">
             좋은 곳에서 일할 기회를 기다리고 있습니다. 
