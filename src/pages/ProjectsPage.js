@@ -12,9 +12,11 @@ export default function ProjectsPage() {
           </h1>
           <i className="fa-regular fa-folder-open"></i>
           <span className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            개발 공부를 하며 만든 프로젝트입니다. HTML, CSS를 기본으로 사용하였으며, 
+            HTML, CSS를 기본으로 사용하였으며, 
             <br/>
-            JAVA SCRIPT와 REACT를 이용해 동적 부분을 구현하였습니다. 
+            JavaScript와 React를 이용해 동적 부분을 구현하였습니다. 
+            <br/>
+            그 외에도 Tailwind, MUI 등을 함께 사용했습니다.
           </span>
         </div>
         <div className="grid grid-cols-2 gap-2 place-content-center-m-4">
@@ -23,8 +25,8 @@ export default function ProjectsPage() {
             <img className="absolute inset-0 w-full h-full object-cover object-center rounded" src={img2}/>
             <div className="px-8 py-10 relative z-10 w-full bg-gray-300 opacity-0 hover:opacity-100 rounded">
               <h1 className="title-font text-lg font-medium text-white mb-3">카카오뱅크</h1>
-              <h2 className="tracking-widest text-m titlefont font-medium text-purple-400 mb-1">HTML, CSS, JAVA SCRIPT</h2>
-              <span className="leading-relaxed">카카오뱅크 웹페이지 모작. HTML, CSS, JAVA SCRIPT, JQuery 사용.</span>
+              <h2 className="tracking-widest text-m titlefont font-medium text-indigo-400 mb-1">HTML, CSS, JavaScript, JQuery</h2>
+              <span className="leading-relaxed">카카오뱅크 웹페이지 모작</span>
             </div>
           </div>
           </a>
@@ -33,8 +35,8 @@ export default function ProjectsPage() {
             <img className="absolute inset-0 w-full h-full object-cover object-center rounded" src={img3}/>
             <div className="px-8 py-10 relative z-10 w-full bg-gray-300 opacity-0 hover:opacity-100 rounded">
               <h1 className="title-font text-lg font-medium text-white mb-3">TodoList</h1>
-              <h2 className="tracking-widest text-m titlefont font-medium text-purple-400 mb-1">HTML, CSS, REACT</h2>
-              <span className="leading-relaxed">할일을 적는 사이트. HTML, CSS, REACT 사용. 특히 REACT의 State를 적극 활용.</span>
+              <h2 className="tracking-widest text-m titlefont font-medium text-indigo-400 mb-1">HTML, CSS, React</h2>
+              <span className="leading-relaxed">웹에서 사용하는 To Do List</span>
             </div>
           </div>
           </a>
@@ -43,8 +45,8 @@ export default function ProjectsPage() {
             <img className="absolute inset-0 w-full h-full object-cover object-center rounded" src={img4}/>
             <div className="px-8 py-10 relative z-10 w-full bg-gray-300 opacity-0 hover:opacity-100 rounded">
               <h1 className="title-font text-lg font-medium text-white mb-3">Portfolio</h1>
-              <h2 className="tracking-widest text-m titlefont font-medium text-purple-400 mb-1">HTML, CSS, REACT</h2>
-              <span className="leading-relaxed">포트폴리오 사이트. HTML, CSS, REACT 사용.</span>
+              <h2 className="tracking-widest text-m titlefont font-medium text-indigo-400 mb-1">HTML, CSS, React</h2>
+              <span className="leading-relaxed">포트폴리오 사이트</span>
             </div>
           </div>
           </a>

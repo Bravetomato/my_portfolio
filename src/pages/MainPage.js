@@ -1,9 +1,10 @@
+import { fontSize } from "@mui/system";
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../style/MainPage.css";
 
 export default function MainPage() {
-  const completeText ="안녕하세요. 성장형 신입 프론트엔드 개발자 김보람입니다.";
+  const completeText ="My World is what I'm think about it.";
   const [text, setText] = useState('');
   const [count, setCount] = useState(0);
 
@@ -20,7 +21,7 @@ export default function MainPage() {
   });
 
   const buttonStyle = {
-    color: "#FCFFE6",
+    color: "white",
     size: "35px",
     marginTop: "80px",
     alignItems: "center",
@@ -32,8 +33,8 @@ export default function MainPage() {
       <>
        <div id="main" className="mainpage">
         <div className="text-center">
-         <h2 className="mainTitle">WELLCOME TO MY PORTFOLIO</h2> 
-         <h3>{text}</h3>
+         <h2 className="mainTitle" style={{ fontFamily: "Roboto Mono"}}>WELLCOME TO MY PORTFOLIO</h2> 
+         <h3 className="text" style={{ fontFamily: "Nanum Myeongjo"}}>{text}</h3>
          <a href="#aboutme">
           <button style={buttonStyle} className="ml-4 py-2 px-6 border-2 hover:border-sky-200 rounded text-lg">START</button>
          </a>

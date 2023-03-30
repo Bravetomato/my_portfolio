@@ -12,11 +12,11 @@ export default function SkillPage() {
           <span className="lg:w-2/3 mx-auto leading-relaxed text-base">
             HTML, CSS를 사용해 원하는 사이트의 틀을 구현할 수 있으며, 
             <br/>
-            JAVA SCRIPT를 통해 사이트의 동적 움직임을 만들 수 있습니다. 
+            JavaScript를 통해 사이트의 동적 움직임을 만들 수 있습니다. 
             <br />
-            또한 REACT의 State 기능을 이해하고 있으며, 반응형 웹을 제작하는 것이 가능합니다.
+            또한 React의 State 기능을 이해하고 있으며, 반응형 웹을 제작하는 것이 가능합니다.
             <br />
-            이외에도 MUI, Tailwind를 다룰 수 있습니다. 
+            이외에도 MUI, Tailwind를 다룬 경험이 있습니다.
           <div className="grid grid-cols-2 gap-2 mt-10 p-10">
             <i className="fa-brands fa-html5 fa-5x"></i>
             <i className="fa-brands fa-css3-alt fa-5x"></i>

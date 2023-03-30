@@ -16,20 +16,13 @@ export default function AboutMePage() {
           </h1>
           <i className="fa-solid fa-magnifying-glass"></i>
           <span className="mb-8 leading-relaxed">
-            <p className="text-red-500 font-bold">"Slow but, Steady"</p>
-            토끼와의 달리기에서 이겼던 거북이처럼<br/>
-            빠르진 않아도, 한걸음씩 꾸준하게 걸어가는 태도를 가졌습니다.<br/>
-            <p className="text-red-500 font-bold">"헛된 노력도 버려지는 경험도 없다"</p>
-            비전공자이고, 개발 경력을 가지고 있지 않지만<br/>   
-            개발을 알지 못하는 사용자들이 겪게 되는 문제를 해결하는데<br/> 도움이 될 것입니다.<br/>
-            <p className="text-red-500 font-bold">"모르는 것을 두려워하지 않는 개발자"</p>  
-            모르는 문제가 나왔을 때 부끄러워 하기보다는<br/>
-            질문을 통해 해결하는 것이 더 중요하다고 생각합니다.<br/>
-            이런 자세를 통해 성장하는 개발자가 되도록 노력하겠습니다.          
+            <p className="text-slate-400 font-bold">"Slow but, Steady"</p>
+            <br/>
+            <p className="text-slate-400 font-bold">"개발은 어느 곳에서나 유효하다"</p>  
           </span>
          <br />
           <div className="flex justify-center">
-           <button onClick={() => openNewPage("")} style={{color:"#195190"}} className="ml-4 py-2 px-6 bg-slate-400 border-0 hover:bg-sky-200 rounded text-lg">
+           <button onClick={() => openNewPage("")} className="ml-4 py-2 px-6 bg-slate-400 border-0 hover:bg-sky-200 rounded text-lg">
             RESUME</button>
           </div> 
          </div>
