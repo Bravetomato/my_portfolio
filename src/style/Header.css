@@ -4,6 +4,7 @@
     position: absolute;
     display: flex;
     justify-content: space-around;
+    z-index: 100;
   }
   
   /* 로고 시작 */
