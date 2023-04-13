@@ -34,9 +34,9 @@ export default function ContactMePage() {
             언제든 편하게 연락주세요.
           </span>
           <div className="flex justify-center">
-           <a href="https://github.com/Bravetomato">
+           <a href="https://github.com/Bravetomato" target="_blank" rel="noopner noreferrer">
            <i className="icon fa-brands fa-github fa-2x pl-5 pr-4"></i></a>
-           <a href="https://blog.naver.com/princeps1c">
+           <a href="https://blog.naver.com/princeps1c" target="_blank" rel="noopner noreferrer">
            <i className="icon fa-solid fa-blog fa-2x pl-3 pr-4"></i></a> 
           </div> 
           <div className="flex justify-center">
