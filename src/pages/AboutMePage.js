@@ -22,7 +22,7 @@ export default function AboutMePage() {
           </span>
          <br />
           <div className="flex justify-center">
-           <button onClick={() => openNewPage("")} className="ml-4 py-2 px-6 bg-slate-400 border-0 hover:bg-sky-200 rounded text-lg">
+           <button onClick={() => openNewPage("")} className="ml-4 py-2 px-6 bg-slate-400 border-0 hover:bg-sky-200 rounded text-lg" target="_blank" rel="noopner noreferrer">
             RESUME</button>
           </div> 
          </div>
