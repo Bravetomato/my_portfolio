@@ -17,8 +17,11 @@ export default function AboutMePage() {
           <i className="fa-solid fa-magnifying-glass"></i>
           <span className="mb-8 leading-relaxed">
             <p className="text-slate-400 font-bold">"Slow but, Steady"</p>
+            <p>무엇이든 쉽게 싫증내지 않고 꾸준하게 하는 장점을 가지고 있습니다.</p>
             <br/>
-            <p className="text-slate-400 font-bold">"개발은 어느 곳에서나 유효하다"</p>  
+            <p className="text-slate-400 font-bold">"개발은 어느 곳에서나 유효하다"</p>
+            <p>웹을 통해서 누구나 공평하게 정보에 접근이 가능하다는 것에 매력을 느껴
+            개발에 관심을 가지게 되었습니다.</p>
           </span>
          <br />
           <div className="flex justify-center">
