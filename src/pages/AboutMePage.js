@@ -2,7 +2,7 @@ import img1 from "../img/development.png";
 
 export default function AboutMePage() {
     const openNewPage = (url) => {
-      window.open(url, "_blank", "noopener, noreferrer");
+      window.open("https://drive.google.com/file/d/1YYIEfEslm23dXORkdEaAajuhDXe-Y3wV/view?usp=sharing", "_blank", "noopener, noreferrer");
     };
 
     return (
