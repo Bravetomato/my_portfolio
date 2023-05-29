@@ -20,7 +20,7 @@ export default function ProjectsPage() {
           </span>
         </div>
         <div className="grid grid-cols-2 gap-2 place-content-center-m-4">
-           <a href="https://codepen.io/bravetomato-the-looper/pen/jOpbLaZ?editors=1010" target="_blank" rel="noopner noreferrer">
+           <a href="https://github.com/Bravetomato/clone_kakaobank" target="_blank" rel="noopner noreferrer">
            <div className="flex relative">
             <img className="absolute inset-0 w-full h-full object-cover object-center rounded" src={img2}/>
             <div className="px-8 py-10 relative z-10 w-full bg-gray-300 opacity-0 hover:opacity-100 rounded">
@@ -40,7 +40,7 @@ export default function ProjectsPage() {
             </div>
           </div>
           </a>
-          <a href="https://bravetomato.github.io/portfolio/" target="_blank" rel="noopner noreferrer">
+          <a href="https://github.com/Bravetomato/my_portfolio" target="_blank" rel="noopner noreferrer">
           <div className="flex relative">
             <img className="absolute inset-0 w-full h-full object-cover object-center rounded" src={img4}/>
             <div className="px-8 py-10 relative z-10 w-full bg-gray-300 opacity-0 hover:opacity-100 rounded">

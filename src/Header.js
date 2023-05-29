@@ -8,7 +8,6 @@ import "./style/Header.css";
 
 export default function Header() {
   const navigate = useNavigate();
-// projectpage에서 왜 header가 사라지는지?
   return(
    <>
     <div className="header_wrap text-black ">
